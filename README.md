@@ -13,4 +13,4 @@ The second image in the row belongs to pickpick.com and can be found in this lin
 The third image in the row belongs to user "Haanala 76" in publicdomainpictures.net and can be found in this link: https://www.publicdomainpictures.net/it/view-image.php?image=110561&picture=scarpe-da-tennis
 
 
-This is my very first layout made all by myself. I hope you enjoy it and im open to any suggestions 
+This is my very first layout made all by myself. I hope you enjoy it and im open to any suggestions. 
