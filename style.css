@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     }
@@ -20,6 +21,7 @@ img {
     width: 350px;
     height: auto;
     border-radius: 30px;
+    
 }
 
 .header {
@@ -27,6 +29,7 @@ img {
     flex-direction: row;
     color: #f9faf8;
     justify-content: space-around;
+    padding-bottom: 60px;
 
 }
 
@@ -36,8 +39,29 @@ ul {
     gap: 16px
 }
 
+li {
+    background-color: #009ffd;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
 .examples {
     display: flex;
+    justify-content: center;
+    gap: 25px
+}
+
+.row {
+    border: 2px solid #3882f6;
+    display: block;
+    height: 220px
+}
+
+.quote {
+    display: block;
+    color: #1f2937;
 }
 
 .content {
@@ -45,20 +69,23 @@ ul {
     flex-direction: row;
     color: #f9faf8;
     justify-content: center;
-    gap: 46px
+    gap: 46px;
+    padding-bottom: 40px;
 }
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    border-radius: 30px;
+    border-radius: 10px;
+    border: none;
     border-color: #f9faf8;
+    padding: 4px 19px;
 }
 
 .second {
     display: flex;
     background-color: #f9faf8;
-    flex-grow: 1;
+    flex-direction: column;
 }
 
 .third {
@@ -89,12 +116,19 @@ cite {
 .modal {
     display: flex;
     background-color: #3882f6;
-    justify-content: space-between;
+    justify-content: center;
     color: #f9faf8;
     border-radius: 10px;
     margin: 40px;
-    padding: 20px;
-    gap: 190px
+    padding: 20px 40px;
+    gap: 170px;
+    font-size: small;
+}
+
+#example {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
 }
 
 .footer {
@@ -103,3 +137,23 @@ cite {
     align-items: center;
     background-color: #1f2937;
 }
+
+#bottom-button {
+    border: 2px solid white;
+    display: block;
+    width: 90px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+
+h4 {
+    color: #E5E7EB;
+}
+
+.first .header img {
+    height: 50px;
+    width: auto;
+    padding-top: 8px
+}
+
